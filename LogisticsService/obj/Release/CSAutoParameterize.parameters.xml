@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LogisticsServiceContext-Web.config Connection String" description="LogisticsServiceContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=LogisticsServiceContext-20180427135529; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|LogisticsServiceContext-20180427135529.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\pe7ch\\source\\repos\\LogisticsService\\LogisticsService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LogisticsServiceContext']/@connectionString" />
+  </parameter>
+  <parameter name="LogisticsDBEntities-Web.config Connection String" description="LogisticsDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\LogisticsDB.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\pe7ch\\source\\repos\\LogisticsService\\LogisticsService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LogisticsDBEntities']/@connectionString" />
+  </parameter>
+</parameters>
